@@ -7,9 +7,15 @@ Designed for Klipper, the KGP_4x2209 is fast to set up and simple to wire into a
 
 The KGP_4x2209 was designed with an eye towards making its set up and operation as fast and intuitive as possible.  Connectors are color coded as well as being horizontal, giving clear access to the pin information on the PCB silkscreen as well as the many indicator LEDs.  Electrically, peripheral functions are designed to be "orthogonal" which means they are not set for predetermined functions - for example, the stepper motor drivers can be used for any of the axes or the extruder and the heater outputs are designed for bed heaters (not a single bed heater and extruder heater).  The KGP_4x2209 is designed for simplified power wiring with having the host built into the PCB and CAN power provided in the standard Microfit connector.  The positioning of connectors was done in mind of user needs, not the convenience of the board designer.  With mounting holes placed at the board corners, not interfering with connector, the KGP_4x2209 was designed by 3D printer enthusiasts for 3D printer enthusiasts to get the printers up and running as quicking and easily as possible.  
 
-![KGP_4x2209 Topside](https://github.com/3dApothecary-xyz/KGP_4x2209/blob/main/Images/KGP_4x2209-Rev_7-Topside.png)
+![KGP_4x2209-Operating](https://github.com/3dApothecary-xyz/KGP_4x2209/blob/main/Images/KGP_4x2209-Operating.jpg)
 
 ## Technical information for the KGP 4x2209 3D Printer Main Controller Board
+
+### Targeted Printer Archtectures
+* Traditional cartesian 
+* Bedslingers with and without Z-Tilt (Z-Tilt will require a toolhead controller connected by CAN)
+* CoreXY (without Quad Gantry Level)
+* Delta
 
 ### STM32G0B1 MCU
 * 64MHz Operating Speed
@@ -41,5 +47,7 @@ The KGP_4x2209 was designed with an eye towards making its set up and operation 
 * 5Pin BL Touch header with yellow indicator LED
 * 4Pin I2C header
 * Input Voltage monitor
+
+![KGP_4x2209 Topside](https://github.com/3dApothecary-xyz/KGP_4x2209/blob/main/Images/KGP_4x2209-Rev_7-Topside.png)
 
 ![KGP_4x2209 Backside](https://github.com/3dApothecary-xyz/KGP_4x2209/blob/main/Images/KGP_4x2209_Rev_7-Backside.png)
