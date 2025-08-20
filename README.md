@@ -9,6 +9,10 @@ The KGP_4x2209 was designed with an eye towards making its set up and operation 
 
 ![KGP_4x2209-Operating](https://github.com/3dApothecary-xyz/KGP_4x2209/blob/main/Images/KGP_4x2209-Operating.jpg)
 
+## User Manual
+
+[User Manual0(documentation/User Manual.pdf)
+
 ## Technical information for the KGP 4x2209 3D Printer Main Controller Board
 
 ### Targeted Printer Archtectures
