@@ -11,7 +11,7 @@ The KGP_4x2209 was designed with an eye towards making its set up and operation 
 
 ## User Manual
 
-[User Manual](documentation/User Manual.pdf)
+[User Manual](documentation/UserManual.pdf)
 
 ## Technical information for the KGP 4x2209 3D Printer Main Controller Board
 
